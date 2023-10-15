@@ -38,7 +38,7 @@ step2
 python Step1_getData.py
 
 step3 
-# The DeepTTC model script, includ Data split and model train/test.
+# The model script, includ Data split and model train/test.
 python Step3_model.py
 
 ```
