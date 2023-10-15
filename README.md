@@ -6,7 +6,19 @@ Identification of new lead molecules for treatment  of cancer is often the resul
 
 ## Install
 
-```          
+```
+conda create --name transgeno
+conda activate transgeno
+conda install pytorch torchvision torchaudio cudatoolkit=11.1 -c pytorch
+
+pip install pandas
+pip install scikit-learn
+pip install pubchempy
+pip install lifelines
+pip install tensorboard
+pip install prettytable
+pip install subword_nmt
+pip install openpyxl      
 ```
 
 
